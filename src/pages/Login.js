@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 
 function Login() {
   const navigate = useNavigate();
-  const token =  
+  const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoicHJhandvbGdhdXRhbTU2QGdtYWlsLmNvbSIsImlkIjoxMTA4LCJmaXJzdE5hbWUiOiJQcmFqd29sIiwibGFzdE5hbWUiOiJHYXV0YW0ifSwiaWF0IjoxNzI0NDM5OTM2LCJleHAiOjE3NTU5NzU5MzZ9.rliol7gJ2Zo3nqr7xBZvxOjBjeqEYofpwCG2dXpg3PA#" 
   if (token) {
-    navigate('/');
+    navigate('/Onebox');
   }
 
   if (!token) {
